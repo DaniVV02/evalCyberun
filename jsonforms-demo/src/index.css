@@ -1,0 +1,46 @@
+.field-row {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.label-col {
+  flex: 1;
+  font-weight: bold;
+}
+.value-col {
+  flex: 2;
+}
+.chip {
+  background-color: #d6ecff;
+  border-radius: 16px;
+  padding: 5px 10px;
+  margin: 2px;
+  display: inline-block;
+}
+.field-full {
+  margin-bottom: 1.5rem;
+}
+.field-full label {
+  font-weight: bold;
+}
+.multiline {
+  white-space: pre-line;
+  background: #f7f7f7;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.country-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+.country-table th,
+.country-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+.group-fieldset {
+  margin-bottom: 2rem;
+  border: 1px solid #aaa;
+  padding: 1rem;
+}
